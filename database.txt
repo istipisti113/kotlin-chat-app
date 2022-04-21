@@ -1,0 +1,45 @@
+!njani
+jani: hello
+jani: szia
+!vjani: miafasz
+!njani
+jani: valami
+jani: hello
+jani: asdf
+jani: miafasz
+!v--jani left--
+!njani
+jani: hello
+jani: sd
+jani: 
+jani: dfdf
+jani: dfdf
+!nferi
+feri: szia jani
+feri: 
+jani: szia feri
+!njani
+jani: asdf
+jani: dfo
+jani: hello
+--jani left--
+!!njani
+jani: sd
+jani: o
+jani: adsf
+jani: dsaf
+--jani left--
+!!njani
+jani: o
+jani: hello
+jani: asdf
+jani: 
+jani: f
+jani: 
+jani: ffdf
+jani: dsdasdasd
+!nferi
+feri: o
+feri: szia jani
+jani: szia feri
+!vferi: az igen
