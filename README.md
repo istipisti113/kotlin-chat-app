@@ -6,3 +6,4 @@ If you want to host a server through the net you will have to forward the specif
 If you need any help feel free to ask. I'm planning to make a client for mobile (android) also, I'll post the mobile versions with the others.
 The mobile versions will have an app or GUI or whatever, and not the console-based one.
 I am also thinking about making a website that functions as a client, so you will be able to chat with anyoe on the go, if the server is already running.
+
