@@ -58,6 +58,9 @@ fun main(){
             var ff = false
             var fff = false
             var namesetting = false
+            //val commands = listOf("l", "")
+
+            var letter = ""
             println("new thread with id = $id")
             while(true){
                 
@@ -110,6 +113,7 @@ fun main(){
                         for (name in names){
                             client.getOutputStream().write(name.toByteArray() + 10)
                         }
+                    }else{
                         o = false
                     }
                 }
@@ -147,6 +151,14 @@ fun main(){
                     for (client in clients){
                         client.getOutputStream().write(input)
                     }
+                    if (input != 10){
+                        szo += input.toChar()
+                    }else{
+                        szo += "\n"
+                        mentes1 += szo
+                        szo = ""
+                        save()
+                    }
                 }
 
                 if (ff != true){
@@ -157,14 +169,15 @@ fun main(){
                     f=false
                     ff = false
                 }
-
-                if (input != 10){
-                    szo += input.toChar()
-                }else{
-                    szo += "\n"
-                    mentes1 += szo
-                    szo = ""
-                }
+                letter = ""
+                //if (input != 10){
+                //    szo += input.toChar()
+                //}else{
+                //    szo += "\n"
+                //    mentes1 += szo
+                //    szo = ""
+                //    save()
+                //}
             }
         }
         i++
