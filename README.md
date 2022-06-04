@@ -8,3 +8,5 @@ The mobile versions will have an app or GUI or whatever, and not the console-bas
 I am also thinking about making a website that functions as a client, so you will be able to chat with anyoe on the go, if the server is already running.
 
 The second version features the sending of files(mainly pictures).
+
+The third version features accounts and admin users.
