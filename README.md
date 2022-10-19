@@ -7,6 +7,4 @@ If you need any help feel free to ask. I'm planning to make a client for mobile 
 The mobile versions will have an app or GUI or whatever, and not the console-based one.
 I am also thinking about making a website that functions as a client, so you will be able to chat with anyoe on the go, if the server is already running.
 
-The second version features the sending of files(mainly pictures).
-
-The third version features accounts and admin users.
+The second version features the sending of files, every chat room is going to have its own folder on the server like an ftp server, and you will be able to access the files through commands. In the older versions of the second version it was not possible, but since I need an easy ftp soltion and it would look reat in this project I decided to merge the two. The source code is revealed, You do not have to wworry amout Me stealing your data.
